@@ -6,9 +6,9 @@ void main()
   int a, b, c;
   clrscr();
   printf("Enter the first number:");
-  scanf("&d");
+  scanf("%d",&a);
   printf("Enter the second number:");
-  scanf("&d");
+  scanf("%d",&b);
   add(a,b);
   getch();
 }
