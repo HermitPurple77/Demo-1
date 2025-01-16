@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<conio.h>
+void add(int, int);
+void main()
+{
+  int a, b, c;
+  clrscr();
+  printf("Enter the first number:");
+  scanf("&d");
+  printf("Enter the second number:");
+  scanf("&d");
+  add(a,b);
+  getch();
+}
+
+void add(int a, int b)
+{
+  int c;
+  c = a+ b;
+  printf("The sum of %d and %d is %d",a,b,c);
+}
